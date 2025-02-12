@@ -15,5 +15,5 @@ plot3(ax, jointPositions(:,1), jointPositions(:,2), jointPositions(:,3), 'k-', '
 grid(ax, 'on');
 axis(ax, 'equal');
 xlabel(ax, 'X'); ylabel(ax, 'Y'); zlabel(ax, 'Z');
-hold(ax, 'off');
+% hold(ax, 'off');
 end

@@ -14,6 +14,6 @@ positions = [tform2trvec(TBase); tform2trvec(T1); tform2trvec(T2); ...
              tform2trvec(T3); tform2trvec(T4); tform2trvec(Tip)];
 
 % Flip Z-axis
-reflectionMatrix = [1, 0, 0; 0, 1, 0; 0, 0, -1];
+reflectionMatrix = [1, 0, 0; 0, 1, 0; 0, 0, 1];
 positions = (reflectionMatrix * positions')';
 end
